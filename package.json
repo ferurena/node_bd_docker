@@ -1,0 +1,19 @@
+{
+  "name": "bd-docker",
+  "version": "1.0.0",
+  "description": "node con docker",
+  "license": "MIT",
+  "author": "Fernando Urena",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+     "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "expres": "^0.0.5",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.1"
+  }
+}
